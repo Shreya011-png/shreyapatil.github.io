@@ -1,0 +1,85 @@
+/* ==== GOOGLE FONTS ==== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600&display=swap');
+
+/* ==== RESET + BASE ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+}
+h1, h2, h3, .navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ==== BADGE GLOW ==== */
+.badge {
+  border-radius: 30px;
+  font-size: 1rem;
+}
+.badge:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 12px rgba(150, 150, 255, 0.3);
+}
+
+/* ==== NAVBAR ==== */
+.navbar {
+  background-color: #1f1f2e !important;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #f39c12 !important;
+}
+.nav-link {
+  color: #eee !important;
+}
+.nav-link:hover {
+  color: #f39c12 !important;
+}
+
+/* ==== HERO ==== */
+section.bg-light {
+  background: linear-gradient(to right, #f6f9fc, #e9ecf1);
+}
+
+/* ==== SECTIONS ==== */
+section {
+  padding: 60px 0;
+}
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1f1f2e;
+}
+p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+/* ==== CUSTOM BUTTON ==== */
+.btn-primary {
+  background-color: #f39c12;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #d5890a;
+  box-shadow: 0 0 10px rgba(243, 156, 18, 0.4);
+}
+
+/* ==== PROJECT CARDS (coming soon) ==== */
+.project-card {
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.project-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
