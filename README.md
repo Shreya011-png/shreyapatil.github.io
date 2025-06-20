@@ -20,11 +20,7 @@ Dark/Light Mode Toggle
 
 Downloadable resume button (PDF link)
 
-Deployed using GitHub Pages
-
-📸 Preview
-
-Add screenshot image here (optional but recommended)
+Deployed using GitHub Page 
 
 🧠 Technologies Used
 
